@@ -1,3 +1,4 @@
+import { ToggleTheme } from "@/features/toggle-theme/toggle-theme";
 import { Layout } from "./_ui/layout";
 import { Logo } from "./_ui/logo";
 import { MainNav } from "./_ui/main-nav";
@@ -15,6 +16,7 @@ export function AppHeader({
       mainNavMobile={<MainNav variant="mobile" logo={<Logo />} />}
       mainNavDesktop={<MainNav variant="desktop" />}
       profile={isProfile && <Profile />}
+      actions={<ToggleTheme />}
     />
   );
 }
