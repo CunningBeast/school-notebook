@@ -22,8 +22,9 @@ export type NavLinkType = {
 };
 
 const navLink: NavLinkType[] = [
-  { title: "Игры", href: "/" },
-  { title: "О проекте", href: "/abaut" },
+  { title: "Домой", href: "/" },
+  { title: "Игры", href: "/games" },
+  { title: "О проекте", href: "/about" },
 ];
 
 const mainNavTrigerStyle =
